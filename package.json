@@ -1,0 +1,11 @@
+{
+  "scripts": {
+  	 "g": "git add . && git commit -m 0 && git push -u origin main -f",
+ "su": "surge --project ./  --domain 4ebol.surge.sh",
+  	"test": "xo && ava && tsd",
+		"v": "dugite"
+  },
+  "dependencies": {
+    
+  }
+}

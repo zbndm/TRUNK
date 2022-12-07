@@ -1,0 +1,10 @@
+{
+  "scripts": {
+ "su": "surge --project ./  --domain 4ebol.surge.sh",
+  	"test": "xo && ava && tsd",
+		"v": "npx esbuild scripts/main.js --bundle --outfile=out.js"
+  },
+  "dependencies": {
+    
+  }
+}
